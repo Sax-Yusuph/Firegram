@@ -1,0 +1,120 @@
+.container-login100 {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background: #1abc9c;
+  background-image: url(./images/bgs/2760939.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.tile {
+  background-color: #eff0f2;
+  border-radius: 6px;
+  /* padding: 14px; */
+  margin-bottom: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.tile p {
+  font-size: 15px;
+  margin-bottom: 33px;
+}
+.container-login100::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.432);
+}
+
+.custom-btn {
+  height: 70px;
+
+}
+.custom-btn-primary {
+  background-color: #6767fa;
+}
+.custom-btn-primary:hover {
+  background-color: #4a4ad4;
+}
+
+.tile-img-header {
+  overflow: hidden;
+  object-fit: cover;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  position: relative;
+}
+
+.tile-img-header::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(182, 17, 17, 0.151);
+}
+
+@media (min-width: 800px) {
+  .tile-img-header {
+    height: 250px;
+  }
+}
+.tile-body {
+  padding: 14px;
+}
+.btn-warning-alt {
+  background-color: #ffb229;
+}
+
+
+a, a:hover{
+  text-decoration: none;
+}
+
+.lds-ripple {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-ripple div {
+  position: absolute;
+  border: 4px solid #fff;
+  opacity: 1;
+  border-radius: 50%;
+  animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+.lds-ripple div:nth-child(2) {
+  animation-delay: -0.5s;
+}
+@keyframes lds-ripple {
+  0% {
+    top: 36px;
+    left: 36px;
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+    width: 72px;
+    height: 72px;
+    opacity: 0;
+  }
+}

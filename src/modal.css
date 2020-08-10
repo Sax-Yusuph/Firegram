@@ -1,0 +1,93 @@
+.modal,
+.modal-box {
+  z-index: 900;
+}
+
+.modal-sandbox {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: transparent;
+}
+
+.modal {
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.8);
+  overflow: auto;
+}
+
+.modal-box {
+  position: relative;
+  width: 50%;
+  height: 120px;
+  max-width: 920px;
+  margin: 100px auto;
+  animation-name: modalbox;
+  animation-duration: 0.4s;
+  animation-timing-function: cubic-bezier(0, 0, 0.3, 1.6);
+}
+
+.modal-header {
+  padding: 5px 20px;
+  background: #eceff1;
+}
+
+.modal-body {
+  background: #fdd3f1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.modal-body h1{
+    color: #e418a7;
+    font-weight: bold;
+    letter-spacing: 0.08rem;
+}
+.modal-body h3{
+    color: #636363;
+    font-weight: bold;
+    letter-spacing: 0.08rem;
+}
+
+/* Close Button */
+.close-modal {
+  position: absolute;
+  color: #636363;
+  top: 15px;
+  right: 30px;
+  font-size: 1.5rem;
+  text-align: right;
+  cursor: pointer;
+}
+
+/* Animation */
+@-webkit-keyframes modalbox {
+  0% {
+    top: -250px;
+    opacity: 0;
+  }
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes modalbox {
+  0% {
+    top: -250px;
+    opacity: 0;
+  }
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}
