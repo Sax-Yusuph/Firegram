@@ -22,7 +22,6 @@ export default function AuthContextProvider({ children }) {
               email,
               photoURL,
             });
-            
           } catch (error) {
             console.error("Error creating user document", error);
           }
@@ -32,12 +31,12 @@ export default function AuthContextProvider({ children }) {
     });
   }, []);
 
-  if (pending) {
+  if (pending && !currentUser) {
     return (
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{delay: 0.5}}
+        transition={{ delay: 0.5 }}
         className="loading-page"
       >
         <div class="lds-ripple">
