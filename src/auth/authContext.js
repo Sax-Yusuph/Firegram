@@ -11,6 +11,7 @@ export default function AuthContextProvider({ children }) {
   useEffect(() => {
     appAuth.onAuthStateChanged(async (user) => {
       setCurrentUser(user);
+
       if (user) {
         const userRef = appFirestore.doc(`users/${user.uid}`);
         const snapshot = await userRef.get();
