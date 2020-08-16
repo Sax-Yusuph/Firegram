@@ -4,22 +4,22 @@
 React imaging application built using Google Cloud Firebase SDK.
 [check it out](https://sax-firegram.web.app/)
 
-### Features
-- User authentication
-- Cloud Firestore Database
-- Firebase Cloud Storage for storing user files
--Google and Facebook Signin 
+### :orange_book: Features
+- :clipboard: User authentication
+- :clipboard: Cloud Firestore Database
+- :clipboard: Firebase Cloud Storage for storing user files
+- :clipboard: Google and Facebook Signin 
 
 
-### Technologies used
-- React
-- Google Firebase SDK
-- Framer Motion for fluid animation
-- Bootstrap 4
+### :orange_book: Technologies used
+- :pill: React
+- :pill: Google Firebase SDK
+- :pill: Framer Motion for fluid animation
+- :pill: Bootstrap 4
 
-### How to install
-- clone the repo
-- cd into the project folder
-- run `npm install` to install dependencies
-- finally, run `npm start` to serve up your app
+### :orange_book: How to install
+- :bookmark: clone the repo
+- :bookmark: cd into the project folder
+- :bookmark: run `npm install` to install dependencies
+- :bookmark: finally, run `npm start` to serve up your app
 
