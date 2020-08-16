@@ -12,14 +12,14 @@ React imaging application built using Google Cloud Firebase SDK.
 
 
 ### :orange_book: Technologies used :boom: :boom:
-:pill: React
-:pill: Google Firebase SDK
-:pill: Framer Motion for fluid animation
-:pill: Bootstrap 4
+- :pill: React
+- :pill: Google Firebase SDK
+- :pill: Framer Motion for fluid animation
+- :pill: Bootstrap 4
 
 ### :orange_book: How to install :boom: :boom:
-:bookmark: clone the repo
-:bookmark: cd into the project folder
-:bookmark: run `npm install` to install dependencies
-:bookmark: finally, run `npm start` to serve up your app
+- :bookmark: clone the repo
+- :bookmark: cd into the project folder
+- :bookmark: run `npm install` to install dependencies
+- :bookmark: finally, run `npm start` to serve up your app
 
